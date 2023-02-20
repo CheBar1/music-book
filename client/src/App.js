@@ -72,7 +72,11 @@ function App() {
                 path="/posts/:postId" 
                 element={<SinglePost />}
               />
-            </Routes>
+              {/* /* <Route 
+                path="/deletePosts/:postId" 
+                element={<DeleteSinglePost />}
+              /> */}
+            </Routes> 
           </div>
           <Footer />
         </div>

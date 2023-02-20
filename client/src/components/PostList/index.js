@@ -1,12 +1,24 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const PostList = ({
-  posts,
-  title,
-  showTitle = true,
-  showUsername = true,
-}) => {
+import { useMutation } from "@apollo/client";
+import { REMOVE_POST } from "../../utils/mutations";
+
+const PostList = ({ posts, title, showTitle = true, showUsername = true }) => {
+  const [removePost, { error }] = useMutation(REMOVE_POST);
+  const showRemoveButton = window.location.href.includes("me");
+
+  const handleDelete = async (postId) => {
+    try {
+      const { data } = await removePost({
+        variables: {
+          postId,
+        },
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  };
   if (!posts.length) {
     return <h3>No Posts Yet</h3>;
   }
@@ -24,13 +36,13 @@ const PostList = ({
                   to={`/profiles/${post.postAuthor}`}
                 >
                   {post.postAuthor} <br />
-                  <span style={{ fontSize: '1rem' }}>
+                  <span style={{ fontSize: "1rem" }}>
                     made this post on {post.createdAt}
                   </span>
                 </Link>
               ) : (
                 <>
-                  <span style={{ fontSize: '1rem' }}>
+                  <span style={{ fontSize: "1rem" }}>
                     You made this post on {post.createdAt}
                   </span>
                 </>
@@ -39,6 +51,21 @@ const PostList = ({
             <div className="card-body bg-light p-2">
               <p>{post.postText}</p>
             </div>
+            {showRemoveButton && (
+              <button
+                className="btn btn-primary btn-block btn-squared"
+                onClick={() => handleDelete(`${post._id}`)}
+              >
+                Remove this post.
+              </button>
+            )}
+
+            {/* <Link
+              className="btn btn-primary btn-block btn-squared"
+              to={`/posts/${post._id}`}
+            >
+             Update this post.
+            </Link> */}
             <Link
               className="btn btn-primary btn-block btn-squared"
               to={`/posts/${post._id}`}
