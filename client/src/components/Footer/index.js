@@ -20,12 +20,12 @@ const Footer = () => {
           <span
             className="emoji"
             role="img"
-            aria-label="heart"
+            aria-label="music-note"
             aria-hidden="false"
           >
-            ❤️
+            ♫
           </span>{' '}
-          by the Music Boook team.
+          by the Music Book team.
         </h4>
       </div>
     </footer>

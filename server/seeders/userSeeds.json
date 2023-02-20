@@ -5,48 +5,23 @@
     "password": "password01"
   },
   {
-    "username": "Phil Woods",
-    "email": "pwoods@musicfriends.com",
+    "username": "Buddy Rich",
+    "email": "brich@musicfriends.com",
     "password": "password02"
   },
   {
-    "username": "David Sanborn",
-    "email": "dsanborn@musicfriends.com",
+    "username": "Oscar Peterson",
+    "email": "opeterson@musicfriends.com",
     "password": "password03"
   },
   {
     "username": "Paquito D'Rivera",
     "email": "pdrivera@musicfriends.com",
     "password": "password04"
-  },
-  {
-    "username": "Maceo Parker",
-    "email": "mparker@musicfriends.com",
-    "password": "password05"
-  },
-  {
-    "username": "Sonny Rollins",
-    "email": "srollins@musicfriends.com",
-    "password": "password06"
-  },
-  {
-    "username": "Michael Brecker",
-    "email": "mbrecker@musicfriends.com",
-    "password": "password07"
-  },
-  {
-    "username": "Branford Marsalis",
-    "email": "bmarsalis@musicfriends.com",
-    "password": "password08"
-  },
-  {
-    "username": "Sonny Stitt",
-    "email": "sstitt@musicfriends.com",
-    "password": "password09"
-  },
+  }, 
   {
     "username": "Chez Barclay",
     "email": "cbarclay@musicfriends.com",
-    "password": "password10"
+    "password": "password05"
   }
 ]
