@@ -1,52 +1,52 @@
 [
   {
-    "username": "Brian Kernighan",
-    "email": "bkernighan@techfriends.dev",
+    "username": "Charlie Parker",
+    "email": "cparker@musicfriends.com",
     "password": "password01"
   },
   {
-    "username": "Max Kanat-Alexander",
-    "email": "mkanatalexander@techfriends.dev",
+    "username": "Phil Woods",
+    "email": "pwoods@musicfriends.com",
     "password": "password02"
   },
   {
-    "username": "Why The Lucky Stiff",
-    "email": "wtls@techfriends.dev",
+    "username": "David Sanborn",
+    "email": "dsanborn@musicfriends.com",
     "password": "password03"
   },
   {
-    "username": "Kent Beck",
-    "email": "kbeck@techfriends.dev",
+    "username": "Paquito D'Rivera",
+    "email": "pdrivera@musicfriends.com",
     "password": "password04"
   },
   {
-    "username": "Edward V. Berard",
-    "email": "evberard@techfriends.dev",
+    "username": "Maceo Parker",
+    "email": "mparker@musicfriends.com",
     "password": "password05"
   },
   {
-    "username": "Alan Kay",
-    "email": "akay@techfriends.dev",
+    "username": "Sonny Rollins",
+    "email": "srollins@musicfriends.com",
     "password": "password06"
   },
   {
-    "username": "C.A.R. Hoare",
-    "email": "choare@techfriends.dev",
+    "username": "Michael Brecker",
+    "email": "mbrecker@musicfriends.com",
     "password": "password07"
   },
   {
-    "username": "David Thomas",
-    "email": "dthomas@techfriends.dev",
+    "username": "Branford Marsalis",
+    "email": "bmarsalis@musicfriends.com",
     "password": "password08"
   },
   {
-    "username": "Donald Knuth",
-    "email": "dknuth@techfriends.dev",
+    "username": "Sonny Stitt",
+    "email": "sstitt@musicfriends.com",
     "password": "password09"
   },
   {
-    "username": "Lernantino",
-    "email": "lernantino@techfriends.dev",
+    "username": "Chez Barclay",
+    "email": "cbarclay@musicfriends.com",
     "password": "password10"
   }
 ]
