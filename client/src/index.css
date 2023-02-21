@@ -1,4 +1,4 @@
-! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+/* ! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
@@ -211,7 +211,7 @@ button:-moz-focusring,
 [type='button']:-moz-focusring,
 [type='reset']:-moz-focusring,
 [type='submit']:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 1px dotted;
 }
 
 /**
@@ -922,7 +922,7 @@ a:hover {
 }
 
 .bg-info {
-  background-color: #2090b9 !important;
+  background-color: #74d1f3 !important;
 }
 
 .bg-danger {
@@ -930,7 +930,7 @@ a:hover {
 }
 
 .bg-light {
-  background-color: #89c7e3 !important;
+  background-color: #addaee !important;
 }
 
 .bg-dark {
