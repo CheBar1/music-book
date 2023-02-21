@@ -114,20 +114,18 @@ const resolvers = {
       }
       throw new AuthenticationError("You need to be logged in!");
     },
-    updatePost: async (parent, { postId }, context) => {
+    updatePost: async (parent, { postId, postText }, context) => {
       if (context.user) {
-        const post = await Post.findOneAndUpdate({
-          _id: postId,
-          postAuthor: context.user.username,
-        });
-        console.log(postId);
-        await User.findOneAndUpdate(
-          { _id: context.user._id },
-          { $set: { 
-            postText: postId.postText,
-            postAuthor: context.user.username,
-            posts: post._id } }
+        const post = await Post.findOneAndUpdate(
+          {
+            _id: postId,
+          },
+          {
+            postText,
+          }
         );
+
+        console.log(postId);
 
         return post;
       }

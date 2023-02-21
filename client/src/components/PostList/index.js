@@ -15,6 +15,7 @@ const PostList = ({ posts, title, showTitle = true, showUsername = true }) => {
           postId,
         },
       });
+      window.location.reload();
     } catch (err) {
       console.error(err);
     }

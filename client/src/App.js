@@ -72,9 +72,9 @@ function App() {
                 path="/posts/:postId" 
                 element={<SinglePost />}
               />
-              {/* /* <Route 
-                path="/deletePosts/:postId" 
-                element={<DeleteSinglePost />}
+                {/* <Route 
+                path="/posts/update/:postId" 
+                element={<UpdatePost />}
               /> */}
             </Routes> 
           </div>
