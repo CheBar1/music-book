@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Auth from '../../utils/auth';
+import Auth from "../../utils/auth";
 
 const Header = () => {
   const logout = (event) => {
@@ -15,16 +15,17 @@ const Header = () => {
           <Link className="text-light" to="/">
             <h1 className="m-0">Music Book</h1>
           </Link>
-          <p className="m-0">A place where musicians can connect
-          {' '}
-          <span
-            className="emoji"
-            role="img"
-            aria-label="music-note"
-            aria-hidden="false"
-          >
-          <h2> ♫ 🎷🎹 🎸🎺 ♫</h2> 
-          </span>{' '}
+          <p className="m-0">
+            {" "}
+            <span
+              className="emoji"
+              role="img"
+              aria-label="music-notes"
+              aria-hidden="false"
+            >
+              <h2> ♫ 🎷🎹 🎸🎺 ♫</h2>
+            </span>{" "}
+            <h3>A place where musicians can connect</h3>
           </p>
         </div>
         <div>
@@ -54,6 +55,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-
