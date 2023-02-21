@@ -53,10 +53,10 @@ const PostList = ({ posts, title, showTitle = true, showUsername = true }) => {
             </div>
             {showRemoveButton && (
               <button
-                className="btn btn-primary btn-block btn-squared"
+                className="btn btn-primary btn-block py-3"
                 onClick={() => handleDelete(`${post._id}`)}
               >
-                Remove this post.
+                Remove post
               </button>
             )}
 
@@ -70,7 +70,7 @@ const PostList = ({ posts, title, showTitle = true, showUsername = true }) => {
               className="btn btn-primary btn-block btn-squared"
               to={`/posts/${post._id}`}
             >
-              Join the discussion on this post.
+              Join the discussion on this post
             </Link>
           </div>
         ))}
