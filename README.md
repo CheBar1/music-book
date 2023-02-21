@@ -47,7 +47,7 @@ THEN I am taken back to the home page where I can see all of the posts;
 THEN I can select any of the 'Join the discussion' links on the bottom of each post.<br>
 WHEN I click on the 'Join the discssion' link on a post,
 THEN I see that single post and a text box opens up for me to comment, then select the Add Comment button.<br>
-WHEN I write my comment and select the Add Commnt button,
+WHEN I write my comment and select the Add Comment button,
 THEN I can see my comment has been added to the comments section of the original post.<br>
 WHEN I want to add my own post,
 THEN I can navigate to either the Add Post text box on the home page, or the Add Post text box that displays in my profile.<br>
