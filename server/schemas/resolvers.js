@@ -122,7 +122,8 @@ const resolvers = {
           },
           {
             postText,
-          }
+          },
+          { new: true }
         );
 
         console.log(postId);

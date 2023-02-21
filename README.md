@@ -17,7 +17,7 @@
 
 ## Description
 Music Book is a MERN stack application using React for the frontend, GraphQL with a Node.js and Express.js server and MongoDB with the Mongoose ODM for the database.
-
+The Music Book application provides a space for musicians to connect with each other, let each other know about upcoming gigs, and organise ensembles.
  
 ## User Story
 AS A passionate musician<br>
@@ -28,38 +28,38 @@ SO THAT I can find other musicians to gig with and keep up to date with what's h
 GIVEN a music book app,<br>
 WHEN I load the application,
 THEN I am presented with a menu with the options to Login or Signup and messages posted on the home page.<br>
-WHEN I am not logged in and try to comment on a post,<br>
+WHEN I am not logged in and try to comment on a post,
 THEN I am presented with a message that I need to be logged in to add a comment.<br>
-WHEN I click on the Signup menu option,<br>
+WHEN I click on the Signup menu option,
 THEN I am presented with three inputs for a username, an email address, and a password, and a signup button.<br>
-WHEN I select Login,<br>
+WHEN I select Login,
 THEN I am presented with two inputs for an email address and a password and Submit button.<br>
-WHEN I enter a valid email address and create a password and click on the Submit button,<br>
+WHEN I enter a valid email address and create a password and click on the Submit button,
 THEN my user account is created and I am logged in to the site.<br>
-WHEN I enter my account’s email address and password and click on the login button,<br>
+WHEN I enter my account’s email address and password and click on the login button,
 THEN I am logged in to the site.<br>
-WHEN I am logged in to the site,<br>
+WHEN I am logged in to the site,
 THEN the menu options change to 'myname's' profile, where I can view all of the posts that I have made, and Logout. A test box opens and I have the option to add my own post.<br>
-WHEN I am logged in and click on my profile from the menu in the header,<br>
+WHEN I am logged in and click on my profile from the menu in the header,
 THEN I am presented with a list of the posts I have made and the option to make another post.<br>
-WHEN I click on the Go Back button on the bottom of the page, or the link named Music Book in the header,<br>
-THEN I am taken back to the home page where I can see all of the posts;<br>
+WHEN I click on the Go Back button on the bottom of the page, or the link named Music Book in the header,
+THEN I am taken back to the home page where I can see all of the posts;
 THEN I can select any of the 'Join the discussion' links on the bottom of each post.<br>
-WHEN I click on the 'Join the discssion' link on a post,<br>
+WHEN I click on the 'Join the discssion' link on a post,
 THEN I see that single post and a text box opens up for me to comment, then select the Add Comment button.<br>
-WHEN I write my comment and select the Add Commnt button,<br>
+WHEN I write my comment and select the Add Commnt button,
 THEN I can see my comment has been added to the comments section of the original post.<br>
-WHEN I want to add my own post,<br>
+WHEN I want to add my own post,
 THEN I can navigate to either the Add Post text box on the home page, or the Add Post text box that displays in my profile.<br>
-WHEN I add my post,<br>
+WHEN I add my post,
 THEN I can view my post on my profile or on the home page.<br>
-WHEN I view my posts on my profile page,<br>
+WHEN I view my posts on my profile page,
 THEN I the options to remove or update my post becomes available.<br>
-WHEN I select remove post and refresh my browser,<br>
+WHEN I select remove post and refresh my browser,
 THEN my selected post is removed.<br>
-WHEN I select update my post,<br>
+WHEN I select update my post,
 THEN I am able to edit my post and save the changes.<br>
-WHEN I select the Logout button,<br>
+WHEN I select the Logout button,
 THEN I am logged out of the site and presented with a menu with the options Login or Signup and the home page displaying all posts. 
 
 ## Screenshot

@@ -53,20 +53,22 @@ const PostList = ({ posts, title, showTitle = true, showUsername = true }) => {
               <p>{post.postText}</p>
             </div>
             {showRemoveButton && (
-              <button
-                className="btn btn-primary btn-block py-3"
-                onClick={() => handleDelete(`${post._id}`)}
-              >
-                Remove post
-              </button>
+              <>
+                <button
+                  className="btn btn-primary btn-block py-3"
+                  onClick={() => handleDelete(`${post._id}`)}
+                >
+                  Remove post
+                </button>
+                <Link
+                  className="btn btn-primary btn-block btn-squared"
+                  to={`/posts/update/${post._id}`}
+                >
+                  Update this post.
+                </Link>
+              </>
             )}
 
-            {/* <Link
-              className="btn btn-primary btn-block btn-squared"
-              to={`/posts/${post._id}`}
-            >
-             Update this post.
-            </Link> */}
             <Link
               className="btn btn-primary btn-block btn-squared"
               to={`/posts/${post._id}`}
