@@ -61,7 +61,7 @@ const PostForm = () => {
   };
 
   return (
-    <div>
+    <div id="piano">
       <h3>Are you a muso looking to book or be booked?</h3>
 
       {Auth.loggedIn() ? (
