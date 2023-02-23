@@ -23,9 +23,9 @@ const Header = () => {
               aria-label="music-notes"
               aria-hidden="false"
             >
-              <span> ♫ 🎷🎹 🎸🎺 ♫</span>
+              <span className='pics'> ♫ 🎷🎹 🎸🎺 ♫</span>
             </span>{" "}
-            <span>A place where musicians can connect</span>
+            <div className='subtitle'>A place where musicians can connect</div>
           </p>
         </div>
         <div>

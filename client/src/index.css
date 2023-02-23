@@ -376,11 +376,13 @@ h1 {
   font-size: 2.25rem;
 }
 
-h2 {
+h2,
+.pics {
   font-size: 2rem;
 }
 
-h3 {
+h3,
+.subtitle {
   font-size: 1.75rem;
 }
 
