@@ -58,7 +58,7 @@ const PostForm = () => {
       setPostText(value);
       setCharacterCount(value.length);
     }
-  };
+  }
 
   return (
     <div id="piano">
