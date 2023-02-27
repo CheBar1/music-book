@@ -23,10 +23,10 @@ const Header = () => {
               aria-label="music-notes"
               aria-hidden="false"
             >
-              <span className='pics'> ♫ 🎷🎹 🎸🎺 ♫</span>
+              <span className="pics"> ♫ 🎷🎹 🎸🎺 ♫</span>
             </span>{" "}
-            <div className='subtitle'>A place where musicians can connect</div>
           </p>
+          <div className="subtitle">A place where musicians can connect</div>
         </div>
         <div>
           {Auth.loggedIn() ? (
@@ -35,16 +35,16 @@ const Header = () => {
                 {Auth.getProfile().data.username}'s profile
               </Link>
               <button className="btn btn-lg btn-light m-2" onClick={logout}>
-                Logout
+                Log out
               </button>
             </>
           ) : (
             <>
               <Link className="btn btn-lg btn-info m-2" to="/login">
-                Login
+                Log in
               </Link>
               <Link className="btn btn-lg btn-light m-2" to="/signup">
-                Signup
+                Sign up
               </Link>
             </>
           )}
